@@ -1,14 +1,18 @@
 @import 'nib/vendor'
 vendor-prefixes = moz webkit o ms official
 
-$primary_color = #20805e
-$secondary_color = #60d5ac
+$primary-color = #20805e
+$secondary-color = #60d5ac
+
+rowTitle()
+	text-align center
+	font-size 3em
 
 a
-	color $secondary_color
+	color $secondary-color
 
 body
-	background-color $primary_color
+	background-color $primary-color
 
 #logo
 	animation-name blink
@@ -24,10 +28,26 @@ body
 #title
 	text-align center
 	font-size 7em
-	color $secondary_color
+	color $secondary-color
 
-#second
-	background-color $secondary_color
+#who
+	h1
+		rowTitle()
+
+	background-color $secondary-color
+
+#why
+	h1
+		rowTitle()
+
+	background-color white
+
+#contact
+	h1
+		rowTitle()
+		color $secondary-color
+
+	background-color $primary-color
 
 @media only screen and (max-width: 320px) {
 

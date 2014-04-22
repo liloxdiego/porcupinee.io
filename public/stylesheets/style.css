@@ -38,8 +38,27 @@ body {
   font-size: 7em;
   color: #60d5ac;
 }
-#second {
+#who {
   background-color: #60d5ac;
+}
+#who h1 {
+  text-align: center;
+  font-size: 3em;
+}
+#why {
+  background-color: #fff;
+}
+#why h1 {
+  text-align: center;
+  font-size: 3em;
+}
+#contact {
+  background-color: #20805e;
+}
+#contact h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #60d5ac;
 }
 @media only screen and (max-width: 320px) {
   body {
