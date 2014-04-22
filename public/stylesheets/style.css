@@ -1,0 +1,213 @@
+a {
+  color: #60d5ac;
+}
+body {
+  background-color: #20805e;
+}
+#logo {
+  -moz-animation-name: blink;
+  -webkit-animation-name: blink;
+  -o-animation-name: blink;
+  -ms-animation-name: blink;
+  animation-name: blink;
+  -moz-animation-duration: 20s;
+  -webkit-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  -ms-animation-duration: 20s;
+  animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
+  -o-animation-timing-function: step-end;
+  -ms-animation-timing-function: step-end;
+  animation-timing-function: step-end;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  height: 193px;
+  width: 320px;
+}
+#title {
+  text-align: center;
+  font-size: 7em;
+  color: #60d5ac;
+}
+#second {
+  background-color: #60d5ac;
+}
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    background-image: url("/images/logo.png");
+  }
+
+  30% {
+    background-image: url("/images/logo2.png");
+  }
+
+  31% {
+    background-image: url("/images/logo.png");
+  }
+
+  50% {
+    background-image: url("/images/logo2.png");
+  }
+
+  52% {
+    background-image: url("/images/logo.png");
+  }
+
+  95% {
+    background-image: url("/images/logo2.png");
+  }
+
+  96% {
+    background-image: url("/images/logo.png");
+  }
+
+  100% {
+    background-image: url("/images/logo.png");
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    background-image: url("/images/logo.png");
+  }
+
+  30% {
+    background-image: url("/images/logo2.png");
+  }
+
+  31% {
+    background-image: url("/images/logo.png");
+  }
+
+  50% {
+    background-image: url("/images/logo2.png");
+  }
+
+  52% {
+    background-image: url("/images/logo.png");
+  }
+
+  95% {
+    background-image: url("/images/logo2.png");
+  }
+
+  96% {
+    background-image: url("/images/logo.png");
+  }
+
+  100% {
+    background-image: url("/images/logo.png");
+  }
+}
+@-o-keyframes blink {
+  0% {
+    background-image: url("/images/logo.png");
+  }
+
+  30% {
+    background-image: url("/images/logo2.png");
+  }
+
+  31% {
+    background-image: url("/images/logo.png");
+  }
+
+  50% {
+    background-image: url("/images/logo2.png");
+  }
+
+  52% {
+    background-image: url("/images/logo.png");
+  }
+
+  95% {
+    background-image: url("/images/logo2.png");
+  }
+
+  96% {
+    background-image: url("/images/logo.png");
+  }
+
+  100% {
+    background-image: url("/images/logo.png");
+  }
+}
+@-ms-keyframes blink {
+  0% {
+    background-image: url("/images/logo.png");
+  }
+
+  30% {
+    background-image: url("/images/logo2.png");
+  }
+
+  31% {
+    background-image: url("/images/logo.png");
+  }
+
+  50% {
+    background-image: url("/images/logo2.png");
+  }
+
+  52% {
+    background-image: url("/images/logo.png");
+  }
+
+  95% {
+    background-image: url("/images/logo2.png");
+  }
+
+  96% {
+    background-image: url("/images/logo.png");
+  }
+
+  100% {
+    background-image: url("/images/logo.png");
+  }
+}
+@keyframes blink {
+  0% {
+    background-image: url("/images/logo.png");
+  }
+
+  30% {
+    background-image: url("/images/logo2.png");
+  }
+
+  31% {
+    background-image: url("/images/logo.png");
+  }
+
+  50% {
+    background-image: url("/images/logo2.png");
+  }
+
+  52% {
+    background-image: url("/images/logo.png");
+  }
+
+  95% {
+    background-image: url("/images/logo2.png");
+  }
+
+  96% {
+    background-image: url("/images/logo.png");
+  }
+
+  100% {
+    background-image: url("/images/logo.png");
+  }
+}
